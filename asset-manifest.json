@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.90d0f560.chunk.css",
-    "main.js": "/static/js/main.e7b91469.chunk.js",
-    "main.js.map": "/static/js/main.e7b91469.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.855f9b6e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.855f9b6e.js.map",
-    "static/js/2.1d726918.chunk.js": "/static/js/2.1d726918.chunk.js",
-    "static/js/2.1d726918.chunk.js.map": "/static/js/2.1d726918.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0473b71b695e3c1a81e501f32b81ffda.js": "/precache-manifest.0473b71b695e3c1a81e501f32b81ffda.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.90d0f560.chunk.css.map": "/static/css/main.90d0f560.chunk.css.map",
-    "static/js/2.1d726918.chunk.js.LICENSE.txt": "/static/js/2.1d726918.chunk.js.LICENSE.txt"
+    "main.css": "/app_slack/static/css/main.90d0f560.chunk.css",
+    "main.js": "/app_slack/static/js/main.e7b91469.chunk.js",
+    "main.js.map": "/app_slack/static/js/main.e7b91469.chunk.js.map",
+    "runtime-main.js": "/app_slack/static/js/runtime-main.6931f40b.js",
+    "runtime-main.js.map": "/app_slack/static/js/runtime-main.6931f40b.js.map",
+    "static/js/2.0aaf7ee2.chunk.js": "/app_slack/static/js/2.0aaf7ee2.chunk.js",
+    "static/js/2.0aaf7ee2.chunk.js.map": "/app_slack/static/js/2.0aaf7ee2.chunk.js.map",
+    "index.html": "/app_slack/index.html",
+    "precache-manifest.d790779d676b74b71105d7a2cc56379d.js": "/app_slack/precache-manifest.d790779d676b74b71105d7a2cc56379d.js",
+    "service-worker.js": "/app_slack/service-worker.js",
+    "static/css/main.90d0f560.chunk.css.map": "/app_slack/static/css/main.90d0f560.chunk.css.map",
+    "static/js/2.0aaf7ee2.chunk.js.LICENSE.txt": "/app_slack/static/js/2.0aaf7ee2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.855f9b6e.js",
-    "static/js/2.1d726918.chunk.js",
+    "static/js/runtime-main.6931f40b.js",
+    "static/js/2.0aaf7ee2.chunk.js",
     "static/css/main.90d0f560.chunk.css",
     "static/js/main.e7b91469.chunk.js"
   ]
