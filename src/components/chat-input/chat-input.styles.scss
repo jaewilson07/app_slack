@@ -1,0 +1,29 @@
+.chat__input {
+  border-radius: 1.23rem;
+
+  form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .chat__text {
+      width: 95%;
+      max-width: 65rem;
+
+      border: 1px solid gray;
+      border-radius: 1.23rem;
+      padding: 0.75rem;
+    }
+
+    textarea {
+      width: 100%;
+      word-wrap: normal;
+      outline: none !important;
+      border: none !important;
+    }
+
+    button {
+      display: none !important;
+    }
+  }
+}

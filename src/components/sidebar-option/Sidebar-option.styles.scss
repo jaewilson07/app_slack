@@ -1,0 +1,30 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  margin: 0.85rem;
+
+  cursor: pointer;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  &:hover {
+    opacity: 0.9;
+    background-color: var(--slack-color-hover);
+  }
+
+  .sidebarOption__icon {
+    font-size: 1rem !important;
+    margin-right: 0.5rem;
+  }
+
+  .sidebarOption__channel {
+    text-transform: lowercase;
+  }
+
+  .sidebarOption__hash {
+    margin: 0.8rem;
+  }
+}

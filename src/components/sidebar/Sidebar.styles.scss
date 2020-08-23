@@ -1,0 +1,78 @@
+.sidebar {
+  width: 14rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  color: white;
+  background-color: var(--slack-color);
+  border-top: 1px solid var(--slack-color-xlight);
+
+  hr {
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
+    border: 1px solid var(--slack-color-xlight);
+  }
+
+  .sidebar__top {
+    height: 10%;
+    min-height: 4.5rem;
+    display: flex;
+    border-bottom: 1px solid var(--slack-color-xlight);
+
+    .sidebar__top_info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+
+      .sidebar__top_info_workspace {
+        font-size: 1rem;
+        font-weight: 700;
+        white-space: nowrap;
+        margin-bottom: 0.33rem;
+
+        .MuiSvgIcon-root {
+          padding: 0;
+          margin-left: 0.5rem;
+
+          font-size: 1rem;
+
+          color: var(--slack-color-xlight) !important;
+          background-color: white;
+          border-radius: 999px;
+        }
+      }
+
+      .sidebar__top_info_userstatus {
+        display: flex;
+        align-items: center;
+        font-size: 0.85rem;
+        font-weight: 300;
+
+        .MuiSvgIcon-root {
+          padding: 0;
+          margin-right: 0.5rem;
+
+          font-size: 0.85rem;
+
+          color: green !important;
+        }
+      }
+    }
+  }
+
+  .sidebar__areas {
+    height: 33%;
+    flex-shrink: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .sidebar__channels_list {
+    height: 57%;
+    flex-shrink: 1;
+
+    overflow-y: scroll;
+  }
+}
